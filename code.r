@@ -1,6 +1,6 @@
 # ============================================
 # Comprehensive R Script: CFTC and Macroeconomic Data Processing
-# Author: Simon-Pierre Boucher
+# Author: Simon-Pierre Boucher, Gabriel Power, Marie-Hélène Gagnon
 # Date: 2024-12-04
 # Description: This script processes CFTC data and macroeconomic indicators,
 #              performs regression analyses with weighted least squares (KUROV and ANDERSON methods),
