@@ -746,30 +746,4 @@ for(i in 1:22){
 perform_regressions(X, "SI", "MM_NLS")
 perform_regressions(X, "SI", "SWAP_NLS")
 
-# ------------------------------
-# 10. Saving Specific Volatility Models
-# ------------------------------
 
-# Set working directory for saving models
-setwd("/Volumes/LaCie/PHD/CH1/FULL")
-
-# The models are already saved within the perform_regressions function
-
-# ------------------------------
-# 11. Conclusion
-# ------------------------------
-# This script processes CFTC and macroeconomic data, performs advanced regression analyses,
-# estimates volatility using GARCH models, and saves the results for further analysis.
-# The use of custom functions enhances modularity, maintainability, and scalability.
-
-# ------------------------------
-# Notes and Recommendations
-# ------------------------------
-# - **Modularity**: The use of custom functions allows for easy reuse and extension of the script to other commodities.
-# - **Weight Management**: Weights are calculated consistently across different regression methods, ensuring uniformity.
-# - **Model Validation**: It is recommended to validate the estimated models by examining diagnostics (residuals, autocorrelation, etc.).
-# - **Performance Optimization**: For large datasets, consider using optimized packages like `data.table` for faster data manipulation.
-# - **Documentation**: Further documentation and comments can be added to enhance clarity and facilitate future maintenance.
-# - **Error Handling**: Implement additional error handling to manage potential data inconsistencies or processing errors.
-
-# If you have any further questions or require additional customizations, feel free to reach out!
